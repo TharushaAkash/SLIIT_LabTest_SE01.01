@@ -10,9 +10,6 @@ const app = express();
 
 app.use(cors());
 
-// app.use(cors({
-//   origin: 'https://sliit-lab-test-se-01-01.vercel.app'
-// }));
 app.use(express.json());
 
 app.get("/", (req, res) => {

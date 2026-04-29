@@ -25,7 +25,6 @@ const itemSchema = new mongoose.Schema(
 
     color: {
       type: String,
-      trim: true,
       required: [true, "Color is required"],
     },
 

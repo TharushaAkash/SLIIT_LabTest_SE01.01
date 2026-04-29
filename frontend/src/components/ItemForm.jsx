@@ -55,6 +55,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
 
       <label>Color</label>
       <input
+        type="text"
         name="color"
         value={formData.color}
         onChange={handleChange}
